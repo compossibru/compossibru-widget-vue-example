@@ -1,0 +1,61 @@
+{
+    "name": "compossibru-widget-vue-example",
+    "version": "0.1.0",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/compossibru/compossibru-widget-vue-example.git"
+    },
+    "authors": [
+        {
+            "name": "Leonard Hertel",
+            "email": "leonard.hertel@gmail.com"
+        },
+        {
+            "name": "Maik Schmidt",
+            "email": "maik.schmidt.hl@gmail.com"
+        }
+    ],
+    "main": "dist/js/app.js",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "vue": "^2.5.17"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.1.1",
+        "@vue/cli-plugin-eslint": "^3.1.5",
+        "@vue/cli-service": "^3.1.4",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.8.0",
+        "eslint-plugin-vue": "^5.0.0-0",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
