@@ -21,7 +21,7 @@
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
-        "postinstall": "vue-cli-service build"
+        "postinstall": "node bin/postinstall.js"
     },
     "dependencies": {
         "apollo-cache-inmemory": "1.3.11",
