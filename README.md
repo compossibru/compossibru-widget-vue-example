@@ -1,0 +1,1 @@
+# compossibru-widget-vue-example
